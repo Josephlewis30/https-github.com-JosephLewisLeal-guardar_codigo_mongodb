@@ -30,4 +30,4 @@ documento_codigo = {
 # Insertar el documento en la colección
 resultado = coleccion.insert_one(documento_codigo)
 
-print("✅ Código guardado correctamente en MongoDB con ID:", resultado.inserted_id)
+print(" Código guardado correctamente en MongoDB con ID:", resultado.inserted_id)
